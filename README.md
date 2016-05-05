@@ -362,6 +362,3 @@ a.mobile:active {
     a.mobile {
         display: none;
     }   
-  
-  
-  
