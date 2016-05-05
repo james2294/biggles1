@@ -210,8 +210,6 @@ if __name__ == '__main__':
 
 </body>
 </html>
-
-
 $(document).ready(function(){
     $("a.mobile").click(function(){
         $(".sidebar").slideToggle('fast');
