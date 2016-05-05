@@ -69,31 +69,7 @@ def home():
     </html>"""
     
     
-    <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>login</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="static/global.css" rel="stylesheet" media="screen">
-</head>
-<body>
-    <div class="container">
-        <h1>please login</h1>
-        <br>
-        <form action="" method="post">
-            <input type="text" placeholder="username" name="username" value="{{ request. form.username }}">
-            <input type="password" placeholder="password" name="password" value="{{request.form.password }}">
-           <input class="btn btn-default" type="submit" value="login">
-         </form>
-        {% if error %}
-        <p class="error"><strong>error:</strong> {{ error}}</p>
-        {% endif%}
-        </div>
-
-</body>
-</html>
+   
 
 @app.route('/products')
 def products():
